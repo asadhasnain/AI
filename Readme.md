@@ -12,6 +12,7 @@ A complete RAG system that combines semantic search with large language models f
 
 **Features:**
 
+- Web-based chat interface for interactive conversations
 - Jina AI embeddings for document vectorization
 - ChromaDB for vector storage and similarity search
 - Local Mistral LLM integration via Ollama
@@ -22,7 +23,8 @@ A complete RAG system that combines semantic search with large language models f
 ```bash
 cd RAG/
 pip install -r requirements.txt
-# Follow setup instructions in RAG/Readme.md
+python run_chat.py
+# Open http://localhost:5000 in your browser
 ```
 
 ## Getting Started
