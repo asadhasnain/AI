@@ -62,10 +62,11 @@ def main():
         sys.exit(1)
     print("✅ Mistral model is available")
     
-    print("🌐 Starting Flask web server...")
+    print("🌐 Starting Flask web server, it may take sometime...")
     print("📱 Open http://localhost:5000 in your browser to access the chat interface")
     print("🛑 Press Ctrl+C to stop the server")
     print("=" * 50)
+    print("Waiting for Flask server to start...")
     
     # Import and run the Flask app
     try:

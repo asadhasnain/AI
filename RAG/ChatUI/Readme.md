@@ -31,18 +31,10 @@ A Retrieval-Augmented Generation system using Jina embeddings and Mistral LLM wi
 Run the chat interface:
 
 ```bash
-python run_chat.py
+python RunChat.py
 ```
 
 Then open <http://localhost:5000> in your browser for an interactive chat experience.
-
-### Option 2: Command Line
-
-Run the original script:
-
-```bash
-python JinaaiEmbeddings.py
-```
 
 ## Features
 
