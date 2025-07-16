@@ -8,61 +8,24 @@ This repository contains AI-related projects and demonstrations showcasing vario
 
 **Location:** `RAG/`
 
-A complete RAG system with multiple interface options for intelligent question answering using semantic search and large language models.
+A complete RAG system that combines semantic search with large language models for intelligent question answering.
 
-**Available Interfaces:**
+**Features:**
 
-#### Streamlit Chat App (Recommended)
-- **Location:** `RAG/StreamlitChat/`
-- **Features:**
-  - Upload and chat with your own documents (PDF, DOCX, TXT)
-  - Real-time document processing and embedding
-  - Interactive chat interface with source citations
-  - Live system monitoring and status checks
-  - Document collection management
+- Web-based chat interface for interactive conversations
+- Jina AI embeddings for document vectorization
+- ChromaDB for vector storage and similarity search
+- Local Mistral LLM integration via Ollama
+- Example implementation with US Presidents knowledge base
 
 **Quick Start:**
-```bash
-cd RAG/StreamlitChat/
-pip install -r requirements.txt
-python run_streamlit.py
-# Open http://localhost:8501 in your browser
-```
 
-#### Flask Web Chat
-- **Location:** `RAG/ChatUI/`
-- **Features:**
-  - Web-based chat interface
-  - RESTful API endpoints
-  - Predefined knowledge base about US Presidents
-
-**Quick Start:**
 ```bash
-cd RAG/ChatUI/
+cd RAG/
 pip install -r requirements.txt
 python run_chat.py
 # Open http://localhost:5000 in your browser
 ```
-
-#### Console Application
-- **Location:** `RAG/Console/`
-- **Features:**
-  - Simple command-line interface
-  - Basic RAG functionality demonstration
-
-**Quick Start:**
-```bash
-cd RAG/Console/
-pip install -r requirements.txt
-python JinaaiEmbeddings.py
-```
-
-**Core Technologies:**
-
-- Jina AI embeddings for document vectorization
-- ChromaDB for vector storage and similarity search
-- Local Mistral LLM integration via Ollama
-- Modern web interfaces with real-time capabilities
 
 ## Getting Started
 
