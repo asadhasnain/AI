@@ -31,7 +31,7 @@ A Retrieval-Augmented Generation system using Jina embeddings and Mistral LLM wi
 Run the chat interface:
 
 ```bash
-python RunChat.py
+python run_chat.py
 ```
 
 Then open <http://localhost:5000> in your browser for an interactive chat experience.
