@@ -1,0 +1,16 @@
+[general]
+dataFrameSerialization = "legacy"
+
+[server]
+port = 8501
+address = "localhost"
+maxUploadSize = 100
+
+[theme]
+primaryColor = "#4CAF50"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[browser]
+gatherUsageStats = false
